@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #c0392b;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+.home-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #eb4d4b;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.home-icon:hover {
+  background-color: #c0392b;
+}
+
+/* start css for main-content */
+.main-content{
+  background-color: #f1f2f6;
+  padding: 2% 0;
+}
+.col-4{
+  width: 18%;
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #bbb;
+}
+/* end css for main-content */
+
+.footer {
+  background-color: #eb4d4b;
+  color: white;
+  padding: 2px;
+}
+
+/* Start Task states */
+
+.time-out{
+  color: #c0392b;
+}
+
+.not-started{
+  color: grey;
+}
+
+.task input,label{
+  cursor: pointer;
+}
+
+/* End Task states */
+
+.deleted-text{
+  text-decoration: line-through;
+}
+
+.btn{
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-danger{
+  background-color: #eb4d4b;
+}
+
+.btn-primary{
+  background-color: #03a9f4;
+}
+td{
+  padding: 5px;
+}
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.close {
+  color: #721c24;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  cursor: pointer;
+}
+.close:hover {
+  color: #f00;
+}
+.error-text{
+  color: red;
+}
